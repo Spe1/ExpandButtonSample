@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="arrow_color" format="color"/>
+    <attr name="arrow_width" format="dimension"/>
+    <attr name="animation_style" format="enum">
+        <enum name="morph" value="1"/>
+        <enum name="rotate" value="0"/>
+    </attr>
+    <attr name="rotate_type" format="enum">
+        <enum name="clockwise" value="1"/>
+        <enum name="anticlockwise" value="-1"/>
+    </attr>
+    <attr name="animation_duration" format="integer"/>
+
+    <declare-styleable name="ExpandCollapseButton">
+        <attr name="arrow_color"/>
+        <attr name="arrow_width"/>
+        <attr name="animation_style"/>
+        <attr name="rotate_type"/>
+        <attr name="animation_duration"/>
+    </declare-styleable>
+
+</resources>
